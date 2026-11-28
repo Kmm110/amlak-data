@@ -1,0 +1,80 @@
+{
+ "tiers": {
+  "silver": {
+   "name": "نقره‌ای",
+   "daily": 10,
+   "weekly": 50,
+   "every": 60,
+   "prices": {
+    "m1": 5000000,
+    "m3": 12000000,
+    "m6": 23000000,
+    "m12": 44000000
+   }
+  },
+  "gold": {
+   "name": "طلایی",
+   "daily": 30,
+   "weekly": 180,
+   "every": 20,
+   "prices": {
+    "m1": 12000000,
+    "m3": 33000000,
+    "m6": 60000000,
+    "m12": 110000000
+   }
+  },
+  "platinum": {
+   "name": "پلاتینی",
+   "daily": 0,
+   "weekly": 0,
+   "every": 5,
+   "prices": {
+    "m1": 20000000,
+    "m3": 57000000,
+    "m6": 110000000,
+    "m12": 200000000
+   }
+  }
+ },
+ "tenants": {
+  "tehranland": {
+   "name": "املاک طهرانلند",
+   "tagline": "خرید، فروش و اجاره",
+   "phone": "",
+   "publicRepo": "Kmm110/amlak-tehranland-data",
+   "privateRepo": "Kmm110/amlak-tehranland",
+   "tier": "platinum",
+   "active": true,
+   "trial": true,
+   "plan": "trial",
+   "expires": "2026-12-05T06:19:43.238Z",
+   "created": "2026-11-28T06:19:39.952Z",
+   "bossId": "lbBsv8oPQetp",
+   "searches": [
+    {
+     "name": "محدوده",
+     "url": "https://divar.ir/s/fardis?q=%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86"
+    },
+    {
+     "name": "محدوده",
+     "url": "https://divar.ir/s/fardis?q=%D9%88%DB%8C%D9%84%D8%A7"
+    },
+    {
+     "name": "محدوده",
+     "url": "https://divar.ir/s/fardis/buy-old-house?map_bbox=50.93864059448242%2C35.611968994140625%2C51.046478271484375%2C35.79064178466797&map_place_hash=1751%7C%7Cplot-old%7C%7C&q=%D8%B2%D9%85%DB%8C%D9%86"
+    }
+   ],
+   "history": [
+    {
+     "at": "2026-11-28T06:19:39.952Z",
+     "plan": "trial",
+     "days": 7,
+     "tier": "platinum",
+     "price": 0
+    }
+   ]
+  }
+ },
+ "support": {}
+}
